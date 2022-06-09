@@ -1,9 +1,81 @@
+/* FONT DECLARATION : 'Playfair Display' */
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/PlayfairDisplay-VariableFont_wght.ttf');
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf');
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+}
+/* FONT DECLARATION : 'Outfit' */
+@font-face {
+  font-family: 'Outfit';
+  src: url('/fonts/Outfit-VariableFont_wght.ttf');
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+}
+/* FONT DECLARATION : 'Roboto Condensed' */
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('/fonts/RobotoCondensed-Light.ttf');
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('/fonts/RobotoCondensed-LightItalic.ttf');
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('/fonts/RobotoCondensed-Regular.ttf');
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('/fonts/RobotoCondensed-Bold.ttf');
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('/fonts/RobotoCondensed-BoldItalic.ttf');
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100vw;
+  max-width: 100%;
+  font-family: 'Roboto Condensed', -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -11,6 +83,17 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 * {
   box-sizing: border-box;
+  list-style: none;
 }

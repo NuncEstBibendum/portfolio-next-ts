@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
-}
+  images: {
+    domains: ['julien.gg'],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

@@ -1,0 +1,14 @@
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 793 505" width='200' height='100'>
+    <defs>
+    <linearGradient id="logoGradient" x1="0" x2="0.75" y1="1" y2="0.33">
+        <stop offset="0%" stop-color="#ee7752">
+            <animate dur="25s" attributeName="stop-color" repeatCount='indefinite' values="#ee7752;#ee7752;#e73c7e;#23a6d5;#23d5ab;#23d5ab;#23a6d5;#e73c7e;#ee7752" />
+        </stop>
+        <stop offset="100%" stop-color="#ee7752">
+            <animate dur="25s" attributeName="stop-color" repeatCount='indefinite' values="#ee7752;#23d5ab;#23a6d5;#e73c7e;#e73c7e;#23a6d5;#23d5ab;#ee7752" />
+        </stop>
+        <animate dur="15s" attributeName="x2" repeatCount='indefinite' values="0;0.1;0.2;0.3;0.4;0.4;0.3;0.2;0.1;0" />
+    </linearGradient>
+    </defs>
+    <path stroke-width="0" id="cls-1" d="M770.91,21.09A71.77,71.77,0,0,0,720,0H72A72,72,0,0,0,0,72V432a72,72,0,0,0,72,72H720a72,72,0,0,0,72-72V72A71.77,71.77,0,0,0,770.91,21.09ZM720,144H576a72,72,0,0,0-72,72v72a72,72,0,0,0,144,0H576V216H720V432H432V144H216a72,72,0,0,0-72,72v72a72,72,0,0,0,144,0H216V216H360V432H72V72H720Z" transform="translate(0.5 0.5)" fill='url(#logoGradient)' stroke="url(#logoGradient)" />
+</svg>
