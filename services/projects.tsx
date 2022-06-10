@@ -9,3 +9,14 @@ export const getProjectsData = async (): Promise<ProjectData[] | null> => {
     return null;
   }
 };
+
+export const getProjectDataBySlug = async (
+  slug: string
+): Promise<ProjectData | null> => {
+  try {
+    const request = await api.get<ProjectData>(`/project/${slug}`);
+    return request.data;
+  } catch {
+    return null;
+  }
+};

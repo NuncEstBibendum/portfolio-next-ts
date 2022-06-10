@@ -5,4 +5,5 @@ export type ProjectData = {
   year: number;
   description?: string;
   imgUrl: string;
+  link?: string;
 };

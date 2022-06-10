@@ -12,7 +12,7 @@ import { useTabletAndMobile } from '@/utils/hooks/useTabletAndMobile';
 
 interface Props {
   projectData: ProjectData;
-  className: string;
+  className?: string;
 }
 export const CardFolio = (props: Props) => {
   const { projectData } = props;
@@ -28,7 +28,7 @@ export const CardFolio = (props: Props) => {
   if (isTabletOrMobile) {
     return (
       <CardContainer theme={theme}>
-        <Link href={`/project/${_id}#top`}>
+        <Link href={`/project/${_id}`}>
           <a>
             <Card className="tilt-card" style={{ padding: '0' }}>
               <div className="card__header">
@@ -46,7 +46,7 @@ export const CardFolio = (props: Props) => {
   } else {
     return (
       <CardContainer theme={theme} data-aos="fade-up">
-        <Link href={`/project/${_id}#top`}>
+        <Link href={`/project/${_id}`}>
           <a href="">
             <Card className="tilt-card" style={{ padding: '0' }}>
               <div className="card__header">
